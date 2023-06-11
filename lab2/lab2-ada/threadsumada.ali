@@ -1,0 +1,144 @@
+V "GNAT Lib v2020"
+M P W=b
+P SS ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_PROTECTED_OBJECTS
+RV NO_NESTED_FINALIZATION
+RV NO_PROTECTED_TYPES
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLICIT_LOOPS
+RV MAX_PROTECTED_ENTRIES=1
+RV MAX_TASK_ENTRIES=1
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U threadminada%b	threadsumada.adb	03bd8d31 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20200819050642 76789da1 ada%s
+D a-except.ads		20200819050642 a7106115 ada.exceptions%s
+D a-finali.ads		20200819050642 bf4f806b ada.finalization%s
+D a-ioexce.ads		20200819050642 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20200819050640 0240fc73 ada.real_time%s
+D a-stream.ads		20200819050642 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050643 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050643 aef4d56d ada.text_io%s
+D a-unccon.ads		20200819050643 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200819050644 5ab55268 interfaces%s
+D i-c.ads		20200819050644 c624fa43 interfaces.c%s
+D i-cstrea.ads		20200819050644 e53d8b8e interfaces.c_streams%s
+D system.ads		20200819050647 085b6ffb system%s
+D s-atacco.ads		20200819050645 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20200819050645 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200819050645 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050645 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050645 078245e4 system.file_control_block%s
+D s-finroo.ads		20200819050645 4ff27390 system.finalization_root%s
+D s-imgint.ads		20200819050645 02dbe0c2 system.img_int%s
+D s-memory.ads		20200819050645 597d6634 system.memory%s
+D s-multip.ads		20200819050645 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20200819111918 49f7716a system.os_constants%s
+D s-osinte.ads		20200819050640 01b3ad47 system.os_interface%s
+D s-parame.ads		20200819050646 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050646 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050646 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050646 a37c21ec system.stack_checking%s
+D s-stausa.ads		20200819050646 017a0a05 system.stack_usage%s
+D s-stalib.ads		20200819050646 6b7a13f2 system.standard_library%s
+D s-stalib.adb		20200819050646 f2fe2716 system.standard_library%b
+D s-stoele.ads		20200819050646 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20200819050641 801abd01 system.task_info%s
+D s-taspri.ads		20200819050641 f40ac08d system.task_primitives%s
+D s-taprop.ads		20200819050641 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20200819050641 88fba9ad system.tasking%s
+D s-taprob.ads		20200819050641 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20200819050641 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20200819050641 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tasren.ads		20200819050641 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20200819050641 cca55c94 system.tasking.stages%s
+D s-traent.ads		20200819050646 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050646 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050646 1b7d22d2 system.wch_con%s
+D threadsumada.adb	20230604140904 ad49585c threadminada%b
+G a e
+G c Z b b [threadminada standard 2 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 45|1r6 1r23
+X 8 a-textio.ads
+57K13*Text_IO 727e16 45|1w10 1r27
+508U14*Put_Line 45|82s4
+X 13 system.ads
+67M9*Address
+X 21 s-memory.ads
+53V13*Alloc{13|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{13|67M9} 105i<c,__gnat_realloc>22
+X 29 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 31 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 45 threadsumada.adb
+2U11*threadminada 2b11 83l5 83t17
+4i4 dim{integer} 7r19 11r19 74r36 74r62
+5i4 thread_num{integer} 49r59 71r25 73r19 74r42 74r68
+7a4 arr(integer) 12m10 14m7 18r24 21r13 22r20
+9U14 Init_Arr 9b14 15l8 15t16 81s4
+11i11 i{integer} 12r14 12r20
+17V13 part_min{integer} 17b13 17>22 17>35 26l8 26t16 64s14
+17i22 start_index{integer} 18r28 20r16 64r23
+17i35 finish_index{integer} 20r29 65r23
+18i7 min{integer} 21r22 22m13 25r14
+20i11 i{integer} 21r17 22r24
+28T14 starter_thread 30l8 30e22 56b14 61m10 62m10 67l8 67t22 71r40
+29Y13 start 29>19 29>32 60b14 63l11 63t16 74s20
+29i19 start_index{integer} 61r40
+29i32 finish_index{integer} 62r41
+32w14 part_manager 40b19 54l8 54t20 66r7 76r7
+33U17 set_part_min 33>30 41b17 47l11 47t23 66s20
+33i30 min{integer} 41b30 43r13 44r21
+34Y13 get_min 34<21 49b13 52l11 52t18 76s20
+34i21 min{integer} 51m10
+36i7 tasks_count{integer} 46r10 46r25 49r45
+37i7 min1{integer} 43r19 44r13 51r17
+49i21 min{integer}
+57i7 min{integer} 64m7 66r33
+58i7 start_index{integer} 61m25 64r39
+58i20 finish_index{integer} 62m25 65r39
+60i20 start_index{integer}
+60i33 finish_index{integer}
+69V13 parallel_min{integer} 69b13 78l8 78t20 82s35
+70i7 min{integer} 76m28 77r14
+71a7 thread(28T14) 74r10
+73i11 i{integer} 74r17 74r27 74r58
+

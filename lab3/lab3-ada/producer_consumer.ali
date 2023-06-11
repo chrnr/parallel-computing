@@ -1,0 +1,215 @@
+V "GNAT Lib v2020"
+M P W=b
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_LOCAL_PROTECTED_OBJECTS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_RELATIVE_DELAY
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_ALIASING
+RV NO_IMPLICIT_LOOPS
+RV STATIC_DISPATCH_TABLES
+RV MAX_TASK_ENTRIES=1
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U producer_consumer%b	producer_consumer.adb	5629fe3f NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+W ada.containers.indefinite_doubly_linked_lists%s
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.iterator_interfaces%s
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.unchecked_deallocation%s
+W gnat%s		gnat.ads		gnat.ali
+W gnat.semaphores%s	g-semaph.adb		g-semaph.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.address_image%s  s-addima.adb		s-addima.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+Z system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20200819050642 76789da1 ada%s
+D a-calend.ads		20200819050641 474d9720 ada.calendar%s
+D a-caldel.ads		20200819050641 9f20b83d ada.calendar.delays%s
+D a-contai.ads		20200819050641 61e5e089 ada.containers%s
+D a-conhel.ads		20200819050641 20298884 ada.containers.helpers%s
+D a-conhel.adb		20200819050641 e8b6ff51 ada.containers.helpers%b
+D a-cidlli.ads		20200819050641 531a24f1 ada.containers.indefinite_doubly_linked_lists%s
+D a-cidlli.adb		20200819050641 26b14162 ada.containers.indefinite_doubly_linked_lists%b
+D a-except.ads		20200819050642 a7106115 ada.exceptions%s
+D a-finali.ads		20200819050642 bf4f806b ada.finalization%s
+D a-ioexce.ads		20200819050642 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20200819050642 7c7305e9 ada.iterator_interfaces%s
+D a-reatim.ads		20200819050640 0240fc73 ada.real_time%s
+D a-stream.ads		20200819050642 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050643 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050643 aef4d56d ada.text_io%s
+D a-unccon.ads		20200819050643 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20200819050643 eff36322 ada.unchecked_deallocation%s
+D gnat.ads		20200819050644 b5988c27 gnat%s
+D g-semaph.ads		20200819050640 9996864a gnat.semaphores%s
+D interfac.ads		20200819050644 5ab55268 interfaces%s
+D i-c.ads		20200819050644 c624fa43 interfaces.c%s
+D i-cstrea.ads		20200819050644 e53d8b8e interfaces.c_streams%s
+D producer_consumer.adb	20230604153424 325189e9 producer_consumer%b
+D system.ads		20200819050647 085b6ffb system%s
+D s-addima.ads		20200819050645 a1ec9d3a system.address_image%s
+D s-atacco.ads		20200819050645 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20200819050645 b45c2d8d system.atomic_counters%s
+D s-atocou.adb		20200819050645 b65612c0 system.atomic_counters%b
+D s-conca2.ads		20200819050645 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200819050645 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050645 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050645 078245e4 system.file_control_block%s
+D s-finmas.ads		20200819050645 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200819050645 4ff27390 system.finalization_root%s
+D s-imgint.ads		20200819050645 02dbe0c2 system.img_int%s
+D s-memory.ads		20200819050645 597d6634 system.memory%s
+D s-multip.ads		20200819050645 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20200819111918 49f7716a system.os_constants%s
+D s-osinte.ads		20200819050640 01b3ad47 system.os_interface%s
+D s-parame.ads		20200819050646 4752c4cb system.parameters%s
+D s-pooglo.ads		20200819050646 ede33ef8 system.pool_global%s
+D s-secsta.ads		20200819050646 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050646 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050646 a37c21ec system.stack_checking%s
+D s-stausa.ads		20200819050646 017a0a05 system.stack_usage%s
+D s-stalib.ads		20200819050646 6b7a13f2 system.standard_library%s
+D s-stalib.adb		20200819050646 f2fe2716 system.standard_library%b
+D s-stoele.ads		20200819050646 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20200819050646 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20200819050646 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20200819050646 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20200819050646 9a2744e9 system.stream_attributes%s
+D s-string.ads		20200819050646 8fe54fb7 system.strings%s
+D s-ststop.ads		20200819050646 5fbf1b38 system.strings.stream_ops%s
+D s-tasinf.ads		20200819050641 801abd01 system.task_info%s
+D s-taspri.ads		20200819050641 f40ac08d system.task_primitives%s
+D s-taprop.ads		20200819050641 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20200819050641 88fba9ad system.tasking%s
+D s-taprob.ads		20200819050641 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20200819050641 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20200819050641 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tasren.ads		20200819050641 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20200819050641 cca55c94 system.tasking.stages%s
+D s-traent.ads		20200819050646 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050646 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050646 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [producer_consumer standard 7 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 24|1r6 2r5 4r6 5r5
+X 4 a-contai.ads
+16K13*Containers 28e19 24|4r10 5r9
+X 7 a-cidlli.ads
+46k24*Indefinite_Doubly_Linked_Lists 397e50 24|4w21 8r32
+51R9 List<10|43R9> 24|12r17[8]
+141U14 Append 24|37s21[8]
+151U14 Delete_First 24|64s21[8]
+183V13 First_Element{string} 24|59s33[8]
+X 12 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[7|68]>
+X 16 a-textio.ads
+57K13*Text_IO 727e16 24|1w10 2r9
+508U14*Put_Line 24|38s13 61s16
+X 19 gnat.ads
+34K9*GNAT 57e9 24|1r19 2r18
+X 20 g-semaph.ads
+38K14*Semaphores 97e20 24|1w24 2r23
+40i4*Default_Ceiling{25|125I12} 24|14r47 15r58 16r47
+47W19*Counting_Semaphore 68e26 24|14r24 15r24 16r24
+58Y13 Seize 24|34s26 35s28 55s27 56s28
+63U17 Release 24|40s28 41s27 66s28 67s26
+X 24 producer_consumer.adb
+7U11*Producer_Consumer 7b11 89l5 89t22
+8K12 String_Lists[7|46] 9r8
+11U14 Starter 11b14 11>23 11>50 11>77 11>108 85l8 85t15 88s4
+11i23 Storage_Size{integer} 15r44
+11i50 Item_Numbers{integer} 79r31 83r31
+11i77 Producer_Numbers{integer} 74r31
+11i108 Consumer_Numbers{integer} 75r31
+12r7 Storage{7|51R9[8]} 37m13 37r13 59r48 64m13 64r13
+14w7 Access_Storage{20|47W19} 35r13 40r13 56r13 66r13
+15w7 Full_Storage{20|47W19} 34r13 67r13
+16w7 Empty_Storage{20|47W19} 41r13 55r13
+18T17 Producer 20l11 20e19 26b17 30m13 45l11 45t19 74r52
+19Y16 Start 19>23 29b17 31l14 31t19 79s24
+19i23 Item_Numbers{integer} 30r38
+22T17 Consumer 24l11 24e19 47b17 51m13 72l11 72t19 75r52
+23Y16 Start 23>23 50b17 52l14 52t19 83s24
+23i23 Item_Numbers{integer} 51r38
+27i10 Item_Numbers{integer} 30m22 33r24
+29i24 Item_Numbers{integer}
+33i14 i{integer} 37r39 38r39
+48i10 Item_Numbers{integer} 51m22 54r24
+50i24 Item_Numbers{integer}
+54i14 i{integer}
+59a16 item{string} 61r36
+74a7 Producers(18T17) 78r16 79r10
+75a7 Consumers(22T17) 82r16 83r10
+78i11 i{integer} 79r21
+82i11 i{integer} 83r21
+X 25 system.ads
+67M9*Address
+124I12*Any_Priority{integer}
+125I12*Priority{124I12}
+X 37 s-memory.ads
+53V13*Alloc{25|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{25|67M9} 105i<c,__gnat_realloc>22
+X 46 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 48 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
