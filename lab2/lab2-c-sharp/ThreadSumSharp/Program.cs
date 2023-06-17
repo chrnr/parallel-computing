@@ -6,7 +6,7 @@ namespace ThreadMinSharp
     class Program
     {
         private static readonly int dim = 10000000;
-        private static readonly int threadNum = 2;
+        private static readonly int threadNum = 1;
 
         private readonly Thread[] thread = new Thread[threadNum];
 

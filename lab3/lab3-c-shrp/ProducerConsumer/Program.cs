@@ -10,7 +10,7 @@ namespace ProducerConsumer
         static void Main(string[] args)
         {
             Program program = new Program();
-            program.Starter(3, 10, 2, 2);
+            program.Starter(1, 5, 3, 1);
 
             Console.ReadKey();
         }

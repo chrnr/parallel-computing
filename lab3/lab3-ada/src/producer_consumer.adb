@@ -74,5 +74,5 @@ procedure Producer_Consumer is
    end Starter;
 
 begin
-   Starter (3, 10);
+   Starter (5, 7);
 end Producer_Consumer;

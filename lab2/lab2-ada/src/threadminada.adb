@@ -2,7 +2,7 @@ with Ada.Text_IO; use Ada.Text_IO;
 procedure threadminada is
 
    dim : constant integer := 100000;
-   thread_num : constant integer := 2;
+   thread_num : constant integer := 10;
 
    arr : array(1..dim) of integer;
 
